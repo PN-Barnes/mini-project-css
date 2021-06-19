@@ -1,0 +1,9 @@
+:root {
+    --yellow: #FEEA00;
+    --steel:#888;
+}
+
+body {
+    color: var(--yellow);
+    background-color: var(--steel);
+}
