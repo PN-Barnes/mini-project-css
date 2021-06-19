@@ -4,6 +4,37 @@
 }
 
 body {
-    color: var(--yellow);
     background-color: var(--steel);
+}
+
+header {
+    text-align: center;
+    margin: auto 0;
+    width: 96%;
+    padding: 10px;
+}
+
+h1, h2, p {
+    color: var(--yellow);
+}
+
+article {
+    color: white;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
